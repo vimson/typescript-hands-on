@@ -5,4 +5,4 @@
 [![APLv2][license-badge]][license]
 [![Build Status - GitHub Actions][gha-badge]][gha-ci]
 
-- An example of a base class Entity implementation for Repository pattern
+- [An example of a base class Entity implementation for Repository pattern](https://github.com/vimson/typescript-hands-on/tree/main/src/base-class-generic)
