@@ -1,8 +1,5 @@
 # TypeScript hands-on
 
-[![TypeScript version][ts-badge]][typescript-4-7]
-[![Node.js version][nodejs-badge]][nodejs]
-[![APLv2][license-badge]][license]
-[![Build Status - GitHub Actions][gha-badge]][gha-ci]
+[![Node.js CI](https://github.com/vimson/typescript-hands-on/actions/workflows/nodejs.yml/badge.svg)](https://github.com/vimson/typescript-hands-on/actions/workflows/nodejs.yml)
 
 - [An example of a base class Entity implementation for Repository pattern](https://github.com/vimson/typescript-hands-on/tree/main/src/base-class-generic)
