@@ -1,0 +1,31 @@
+import { BaseEntity } from './base.entity.js';
+
+export type UserType = {
+  id?: string | number | null;
+  name: string;
+  email: string;
+  ssn: string;
+  dob: string;
+  age: number;
+  address: string;
+};
+
+export class User extends BaseEntity<UserType> {
+  private id: number | null = null;
+  private name: string;
+  private email: string;
+  private ssn: string;
+  private dob: string;
+  private age: number;
+  private address: string;
+
+  constructor({ name, email, ssn, dob, age, address }: UserType) {
+    super();
+    this.name = name;
+    this.email = email;
+    this.ssn = ssn;
+    this.dob = dob;
+    this.age = age;
+    this.address = address;
+  }
+}
